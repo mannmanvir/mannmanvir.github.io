@@ -27,6 +27,6 @@ const alerting = function() {
   const upper = function() {
     var parts = document.getElementById("textBox").value;
     parts = parts.split(".");
-    parts = parts.join("-moo ");
+    parts = parts.join("-Moo ");
     document.getElementById("textBox").value = parts;
     }   

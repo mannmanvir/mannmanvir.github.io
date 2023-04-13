@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+		<style>
+			#top {
+				color: Black;
+					text-align:center;
+					font-family: "Times New Roman", Arial, Helvetica;
+			}
+
+		</style>
+	</head>
+
+	<body>
+	<div id="top">
+		<h1>Fancify my Text</h1>
+		<fieldset>
+			<legend>Text</legend>
+			<textarea cols="30" rows="4" id="textBox" placeholder="Type desired text here, a sentence is considered to end with a period."></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Fancify</legend>
+			<button onclick="bigger()">Bigger!</button><br>
+			<input type="radio" id="fancyButton" onchange="styles()" value="boringBetty">
+			<label>FancyShmancy</label><br>
+			<input type="radio" checked="checked" id="boringButton" onchange="unstyles()">
+			<label>BoringBetty</label><br>
+			<button onclick="upper()">Moo</button>
+		</fieldset>
+		</div>
+		<!-- Your UI controls go here -->
+		<script src="fancifymytext.js"></script> 
+	</body>
+</html>
